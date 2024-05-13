@@ -11,6 +11,7 @@ import HowItWorks from '@/src/components/HowItWorks/HowItWorks';
 import WhoWeCooperate from '@/src/components/WhoWeCooperate/WhoWeCooperate';
 import Feedback from '@/src/components/Feedback/Feedback';
 import Footer from '@/src/components/Footer/Footer';
+import Stores from '@/src/components/Stores/Stores';
 
 export default function Home() {
   const controls = useAnimation()
@@ -50,6 +51,7 @@ export default function Home() {
         <WhoWeCooperate />
       </motion.div>
       <Feedback />
+      <Stores />
       <Footer />
     </motion.div>
   );

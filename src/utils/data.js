@@ -33,28 +33,28 @@ export const HeroData = [
 
 export const features = [
   {
-    icon: "/features/Frame-0.png",
-    title: "3x monthly revenue",
+    icon: "/porterhouse.jpeg",
+    title: "Wagyu Porterhouse",
   },
   {
-    icon: "/features/Frame-1.png",
-    title: "Flat fee of 6-12%",
+    icon: "/Wagyu-Cube-Roll-Steak-mbs8-9pheonix-WM.jpg",
+    title: "Angles Cube Roll",
   },
   {
-    icon: "/features/Frame-2.png",
-    title: "Flexible repayments by revenue share",
+    icon: "/Wagyu Oyster Blade.jpeg",
+    title: "Wagyu Oyster Blade",
   },
   {
-    icon: "/features/Frame-3.png",
-    title: "3-4 years repayment",
+    icon: "/cube_roll.jpeg",
+    title: "A5 Wagyu Cube Roll",
   },
   {
-    icon: "/features/Frame-4.png",
-    title: "$10-100k seed investment",
+    icon: "/Strip.webp",
+    title: "A5 Wagyu New York Strip",
   },
   {
-    icon: "/features/Frame-5.png",
-    title: "2% of revenue up to 3X cap",
+    icon: "/JA_a5WagyuPorterhouse_14.jpg",
+    title: "A5 Wagyu Porterhouse",
   },
 ];
 
@@ -73,6 +73,33 @@ export const ourDiffFeatures = [
     icon: "/OurDiff/Frame-2.png",
     title: "value accelerating",
     des: "On demand expertise to supercharge growth in areas that are hard to access for early stage founders",
+  },
+];
+
+export const stores = [
+  {
+    storeName: 'CBD',
+    latitude:'',
+    longitude:'',
+    address:'654 Elizabeth street, North Melbourne VIC 3000'
+  },
+  {
+    storeName: 'GLEN',
+    latitude:'',
+    longitude:'',
+    address:'52/54 Osullivan Rd, Glen Waverley VIC 3150'
+  },
+  {
+    storeName: 'BOX HILL',
+    latitude:'',
+    longitude:'',
+    address:'592 Station St, Box Hill VIC 3128'
+  },
+  {
+    storeName: 'HIGHPONIT',
+    latitude:'',
+    longitude:'',
+    address:'Shop L03 0012, 120/200 Rosamond Rd, Maribyrnong VIC 3032'
   },
 ];
 

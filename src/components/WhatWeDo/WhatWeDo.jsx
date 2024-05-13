@@ -15,30 +15,30 @@ const WhatWeDo = () => {
                 {/* head of section */}
                 <div className='wwd-head'>
                     <motion.span initial='offscreen' whileInView={'onscreen'} variants={tagVaraints} className='tag'>What we do</motion.span>
-                    <motion.span initial='offscreen' whileInView={'onscreen'} variants={titleVaraints} className='title'>{' '} test</motion.span>
-                    <motion.span initial='offscreen' whileInView={'onscreen'} variants={desVaraints} className='des'>Here is we products</motion.span>
+                    <motion.span initial='offscreen' whileInView={'onscreen'} variants={titleVaraints} className='title'>{' '} Meat Products</motion.span>
+                    <motion.span initial='offscreen' whileInView={'onscreen'} variants={desVaraints} className='des'>Here is we have</motion.span>
                 </div>
                 {/* two blocks */}
                 <div className='wwd-blocks'>
                     <div className='wwd-block'>
-                        <motion.span initial='offscreen' whileInView={'onscreen'} variants={titleVaraints} className='sec-title'>Wagyu</motion.span>
-                        <motion.span initial='offscreen' whileInView={'onscreen'} variants={desVaraints} className='text'>Wagyu test</motion.span>
+                        <motion.span initial='offscreen' whileInView={'onscreen'} variants={titleVaraints} className='sec-title'>Australia Wagyu</motion.span>
+                        <motion.span initial='offscreen' whileInView={'onscreen'} variants={desVaraints} className='text'>Multi-brand Wagyu options</motion.span>
                         <div className='block-features'>
                             {features.slice(0,3).map((feature, i) => (
                                 <motion.div initial='offscreen' whileInView={'onscreen'} variants={containerVariants((i+1)*0.1)} className='block-feature' key={i}>
-                                    <Image src={feature.icon} alt='feature' width={60} height={60} />
+                                    <Image src={feature.icon} alt='feature' width={120} height={120} />
                                     <span>{feature.title}</span>
                                 </motion.div>
                             ))}
                         </div>
                     </div>
                     <div className='wwd-block'>
-                    <motion.span initial='offscreen' whileInView={'onscreen'} variants={titleVaraints} className='sec-title'>Wagyu</motion.span>
-                        <motion.span initial='offscreen' whileInView={'onscreen'} variants={desVaraints} className='text'>Wagyu test</motion.span>
+                    <motion.span initial='offscreen' whileInView={'onscreen'} variants={titleVaraints} className='sec-title'>Japanese Wagyu</motion.span>
+                        <motion.span initial='offscreen' whileInView={'onscreen'} variants={desVaraints} className='text'>Japanese Wagyu</motion.span>
                         <div className='block-features'>
                             {features.slice(3,6).map((feature, i) => (
                                 <motion.div initial='offscreen' whileInView={'onscreen'} variants={containerVariants((i+1)*0.1)} className='block-feature' key={i}>
-                                    <Image src={feature.icon} alt='feature' width={60} height={60} />
+                                    <Image src={feature.icon} alt='feature' width={120} height={120} />
                                     <span>{feature.title}</span>
                                 </motion.div>
                             ))}
