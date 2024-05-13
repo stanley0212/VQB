@@ -34,7 +34,7 @@ const Navbar = () => {
                         <Link to='hiw-wrapper' spy={true} smooth offset={100}><span>How it Works</span></Link>
                         <Link to='wwi-wrapper' spy={true} smooth><span>Who are we cooperate</span></Link>
                         <Link to='t-wrapper' spy={true} smooth offset={100}><span>Feedback</span></Link>
-                        <Link to='o-wrapper' spy={true} smooth offset={100}><span>Stores</span></Link>
+                        <Link to='o-wrapper'><span>Stores</span></Link>
                     </div>
                     <div className='fund-button'>Get Newsletter</div>
                 </div>
@@ -57,6 +57,7 @@ const Navbar = () => {
                 <Link onClick={() => setMobileMenuOpened(false)} to='hiw-wrapper' spy smooth offset={100}><span>How it Works</span></Link>
                 <Link onClick={() => setMobileMenuOpened(false)} to='wwi-wrapper' spy smooth><span>Who are we cooperate</span></Link>
                 <Link onClick={() => setMobileMenuOpened(false)} to='t-wrapper' spy smooth offset={100}><span>Feedback</span></Link>
+                <Link onClick={() => setMobileMenuOpened(false)} to='o-wrapper'><span>Our Stores</span></Link>
                 <div className='m-funded-button'>Get Funded</div>
             </div>
         </div>
