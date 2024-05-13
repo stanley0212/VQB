@@ -55,7 +55,7 @@
 
 @media (max-width: 590px) {
     .od-feature {
-        width: 80%;
+        width: '80%';
         margin: auto;
     }
 }

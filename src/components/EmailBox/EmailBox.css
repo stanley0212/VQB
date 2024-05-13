@@ -4,7 +4,7 @@
     border-radius: 999px;
     display: flex;
     align-items: center;
-    width: 70%;
+    width: '70%';
     position: relative;
     overflow: hidden;
 }
@@ -19,7 +19,7 @@
     flex: 1;
 }
 
-.emailBox > input :: ::placeholder {
+.emailBox > input ::placeholder {
     font-size: 0.8rem;
 }
 

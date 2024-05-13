@@ -35,7 +35,7 @@ const Navbar = () => {
                         <Link to='wwi-wrapper' spy={true} smooth><span>Who are we cooperate</span></Link>
                         <Link to='t-wrapper' spy={true} smooth offset={100}><span>Feedback</span></Link>
                     </div>
-                    <div className='fund-button'>Get Funded</div>
+                    <div className='fund-button'>Get Newsletter</div>
                 </div>
             </div>
         </div>
