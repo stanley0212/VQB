@@ -17,6 +17,7 @@ const Footer = () => {
                         <Link to='hiw-wrapper' spy={true} smooth offset={100}><span>How it Works</span></Link>
                         <Link to='wwi-wrapper' spy={true} smooth><span>Who are we cooperate</span></Link>
                         <Link to='t-wrapper' spy={true} smooth offset={100}><span>Feedback</span></Link>
+                        <Link to='o-wrapper'><span>Our Stores</span></Link>
                 </div>
                 <hr />
                 <span className='text'>Made with JJJ Bros Pty Ltd</span>
